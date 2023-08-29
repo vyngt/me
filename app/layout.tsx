@@ -20,7 +20,7 @@ export default function RootLayout({
       <body className={inter.className}>
         <div className="w-full h-full relative">
           <Sidebar />
-          <div className="ml-60">{children}</div>
+          <div className="ml-[242px] mr-[2px]">{children}</div>
         </div>
       </body>
     </html>
