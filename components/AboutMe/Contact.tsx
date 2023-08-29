@@ -1,5 +1,5 @@
 "use client";
-import { IconButton } from "@material-tailwind/react";
+import { IconButton, Tooltip } from "@material-tailwind/react";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope, faPhone } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -27,12 +27,14 @@ export default function Contact() {
         </Link>
       </div>
       <div>
-        <Image
-          src="/assets/vcard.png"
-          alt="qr-vcard"
-          height={200}
-          width={200}
-        />
+        <Tooltip content="My vCard" placement="right">
+          <Image
+            src="/assets/vcard.png"
+            alt="qr-vcard"
+            height={200}
+            width={200}
+          />
+        </Tooltip>
       </div>
     </div>
   );

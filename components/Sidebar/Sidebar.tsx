@@ -1,13 +1,12 @@
 "use client";
 
-import { List, ListItem, ListItemPrefix } from "@material-tailwind/react";
+import { List } from "@material-tailwind/react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { ISidebarItem, SidebarManager } from "./items";
-import { useRouter, usePathname } from "next/navigation";
+import { usePathname } from "next/navigation";
 import Link from "next/link";
 
 const SidebarItem = ({ item }: { item: ISidebarItem }) => {
-  const router = useRouter();
   const pathname = usePathname();
 
   return (
