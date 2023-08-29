@@ -1,3 +1,5 @@
+import { Projects } from "@/components/Projects";
+
 export default function Page() {
-  return <div>Cac du an cua toi</div>;
+  return <Projects />;
 }

@@ -1,3 +1,5 @@
+import { Experience } from "@/components/Experience";
+
 export default function Page() {
-  return <div>Kinh nghiem cua toi</div>;
+  return <Experience />;
 }
