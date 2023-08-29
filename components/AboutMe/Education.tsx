@@ -5,7 +5,7 @@ export default function Education() {
   return (
     <div className="mx-4">
       <hr className="my-2 border-blue-gray-50" />
-      <Typography variant="h4">Education</Typography>
+      <Typography variant="h4">EDUCATION</Typography>
       <Typography variant="h5">Academy of Cryptography Techniques</Typography>
     </div>
   );

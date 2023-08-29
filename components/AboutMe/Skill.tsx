@@ -5,8 +5,18 @@ export default function Skill() {
   return (
     <div className="mx-4">
       <hr className="my-2 border-blue-gray-50" />
-      <Typography variant="h4">Skills</Typography>
-      <Typography variant="h5">Python, Rust, Typescript</Typography>
+      <Typography variant="h4">SKILLS</Typography>
+      <Typography variant="h6">PROGRAMMING LANGUAGES</Typography>
+      <Typography>- Python, Javascript, Rust</Typography>
+      <Typography variant="h6">FRAMEWORKS & LIBRARIES & PACKAGES</Typography>
+      <Typography>- PyQt, PySide, Pytest, Django, FastAPI, Odoo</Typography>
+      <Typography>- Typescript, ReactJs, NextJs</Typography>
+      <Typography>- TailwindCSS</Typography>
+      <Typography>- Rust: Tauri, Rocket</Typography>
+      <Typography>- Web Server: nginx</Typography>
+      <Typography>- Container: Docker</Typography>
+      <Typography variant="h6">DATABASES</Typography>
+      <Typography>- PostgreSQL, SQLite</Typography>
     </div>
   );
 }
