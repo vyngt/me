@@ -29,10 +29,11 @@ export default function Contact() {
       <div>
         <Tooltip content="My vCard" placement="right">
           <Image
+            className="mt-2"
             src="/assets/vcard.png"
             alt="qr-vcard"
-            height={200}
-            width={200}
+            height={300}
+            width={300}
           />
         </Tooltip>
       </div>

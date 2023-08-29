@@ -13,8 +13,8 @@ export default function Experience() {
             02/2023 - 08/2023
           </Typography>
         </div>
-        <div>
-          <Typography>• 1</Typography>
+        <div className="inner-text-medium">
+          <Typography>• Write customize odoo modules</Typography>
           <Typography>• 1</Typography>
           <Typography>• 1</Typography>
           <Typography>• 1</Typography>
