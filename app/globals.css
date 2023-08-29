@@ -4,5 +4,21 @@
 
 body {
   height: 100vh;
-  background-color: #eecae1;
+  background-color: #f1e0eb;
+}
+
+.sidebar-item {
+  @apply text-white;
+}
+
+.sidebar-item-choose {
+  @apply bg-blue-gray-200 text-black;
+}
+
+.sidebar-item:hover {
+  @apply sidebar-item-choose;
+}
+
+.sidebar-item-disable {
+  @apply sidebar-item-choose pointer-events-none;
 }

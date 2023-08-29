@@ -4,23 +4,24 @@ import { List, ListItem, ListItemPrefix } from "@material-tailwind/react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { ISidebarItem, SidebarManager } from "./items";
 import { useRouter, usePathname } from "next/navigation";
+import Link from "next/link";
 
 const SidebarItem = ({ item }: { item: ISidebarItem }) => {
   const router = useRouter();
   const pathname = usePathname();
 
   return (
-    <ListItem
-      className={`rounded-none ${pathname == item.href ? "text-white" : ""}`}
-      onClick={() => {
-        router.push(item.href);
-      }}
+    <Link
+      className={`flex gap-2 p-3 ${
+        pathname == item.href ? "sidebar-item-disable" : "sidebar-item"
+      }`}
+      href={item.href}
     >
-      <ListItemPrefix>
-        <FontAwesomeIcon icon={item.icon} className="h-5 w-5" />
-      </ListItemPrefix>
-      {item.name}
-    </ListItem>
+      <div className="flex flex-col justify-center">
+        <FontAwesomeIcon icon={item.icon} />
+      </div>
+      <div>{item.name}</div>
+    </Link>
   );
 };
 
