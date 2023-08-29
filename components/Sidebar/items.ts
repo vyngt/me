@@ -28,17 +28,10 @@ export const registry: ISidebarItem[] = [
     sequence: 1,
   },
   {
-    id: "experience",
-    name: "Experience",
-    icon: faCode,
-    href: "/experience",
-    sequence: 2,
-  },
-  {
     id: "projects",
     name: "Projects",
     icon: faScrewdriverWrench,
     href: "/projects",
-    sequence: 3,
+    sequence: 2,
   },
 ];
