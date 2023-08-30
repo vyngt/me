@@ -13,11 +13,15 @@ export default function Experience() {
             02/2023 - 08/2023
           </Typography>
         </div>
+        <Typography variant="lead">Backend Developer</Typography>
         <div className="inner-text-medium">
-          <Typography>• Write customize odoo modules</Typography>
-          <Typography>• 1</Typography>
-          <Typography>• 1</Typography>
-          <Typography>• 1</Typography>
+          <Typography>
+            • Viet tai lieu huong dan lap trinh, phat trien odoo
+          </Typography>
+          <Typography>
+            • Viet module tich hop he thong doanh nghiep ERP
+          </Typography>
+          <Typography>• Trien khai, van hanh cac he thong odoo</Typography>
         </div>
       </div>
     </div>
