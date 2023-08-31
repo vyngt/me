@@ -8,8 +8,8 @@ export default function Summary() {
       <div className="inner-text-medium">
         <Typography>
           I am passionate about learning new technologies and always keep
-          concentrated on improving my self skills. Being patient and
-          responsible for working help me implement completely assigned tasks.
+          concentrated on improving my self skills. I love creating hobby
+          tools...
         </Typography>
       </div>
     </div>
