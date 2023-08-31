@@ -4,15 +4,16 @@
 
 body {
   height: 100vh;
-  background-color: #f1e0eb;
+  background-color: #141513;
+  color: white;
 }
 
 .sidebar-item {
-  @apply text-white;
+  @apply text-gray-400;
 }
 
 .sidebar-item-choose {
-  @apply bg-blue-gray-200 text-black;
+  @apply text-[#9df7b5];
 }
 
 .sidebar-item:hover {
@@ -25,4 +26,8 @@ body {
 
 .inner-text-medium > p {
   font-size: 18px;
+}
+
+.text-time {
+  @apply text-[#81fb60];
 }

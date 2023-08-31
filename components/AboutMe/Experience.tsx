@@ -9,7 +9,7 @@ export default function Experience() {
       <div className="flex flex-col">
         <div className="flex justify-between mt-2">
           <Typography variant="h5">T4 TEK COMPANY LIMITED</Typography>
-          <Typography variant="lead" className="text-[#6060fb]">
+          <Typography variant="lead" className="text-time">
             02/2023 - 08/2023
           </Typography>
         </div>
