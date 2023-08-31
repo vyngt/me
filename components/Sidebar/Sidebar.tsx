@@ -26,7 +26,7 @@ const SidebarItem = ({ item }: { item: ISidebarItem }) => {
 
 export default function Sidebar() {
   return (
-    <div className="h-full w-60 shadow-xl bg-black fixed">
+    <div className="sidebar h-full w-60 shadow-xl fixed">
       <List>
         {SidebarManager.all().map((e) => (
           <SidebarItem key={e.id} item={e} />

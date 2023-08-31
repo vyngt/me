@@ -2,10 +2,25 @@
 @tailwind components;
 @tailwind utilities;
 
+.bg-primary {
+  background-color: #141513;
+}
+
+.border-color-primary {
+  border-color: #596051;
+}
+
 body {
   height: 100vh;
-  background-color: #141513;
   color: white;
+
+  @apply bg-primary;
+}
+
+.sidebar {
+  @apply bg-primary border-color-primary;
+  border-right-width: 1px;
+  border-right-style: solid;
 }
 
 .sidebar-item {
