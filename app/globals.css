@@ -17,7 +17,7 @@ body {
 }
 
 .sidebar-item:hover {
-  @apply sidebar-item-choose;
+  @apply sidebar-item-choose !text-white;
 }
 
 .sidebar-item-disable {
