@@ -14,7 +14,7 @@ export default function Projects() {
         </div>
         <hr className="my-2 border-blue-gray-50" />
 
-        <div className="flex flex-col mt-3">
+        <div className="flex flex-col mt-3 gap-4">
           {projects.map((project) => (
             <ProjectItem key={project.id} item={project} />
           ))}
