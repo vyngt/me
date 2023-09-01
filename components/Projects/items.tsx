@@ -1,5 +1,8 @@
+"use client";
+
 import { IconDefinition, faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faDownload } from "@fortawesome/free-solid-svg-icons";
+import { Typography } from "@material-tailwind/react";
 import { ReactNode } from "react";
 
 export interface IProjectItemSource {
@@ -11,7 +14,7 @@ export interface IProjectItem {
   id: string;
   name: string;
   time: string;
-  description: ReactNode | string;
+  description: ReactNode;
   sources: Array<IProjectItemSource>;
 }
 
@@ -20,8 +23,14 @@ export const projects: Array<IProjectItem> = [
     id: "password_manager_2",
     name: "Password Manager 2",
     time: "2023",
-    description:
-      "The new version of Password Manager, written in Rust and Typescript",
+    description: (
+      <>
+        <div>New Version</div>
+        <div>More features:</div>
+        <div>+ Password Generator</div>
+        <div>+ Import/Export</div>
+      </>
+    ),
     sources: [
       { icon: faGithub, link: "https://github.com/vyngt/password-manager-2" },
       {
