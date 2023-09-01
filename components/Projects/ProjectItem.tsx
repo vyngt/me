@@ -22,7 +22,7 @@ export default function ProjectItem({ item }: { item: IProjectItem }) {
           {item.time}
         </Typography>
       </div>
-      <Typography>{item.description}</Typography>
+      <div className="text-sub">{item.description}</div>
       <div className="flex gap-3 mt-2">
         {item.sources.map((e, idx) => (
           <ProjectItemSource key={`${item.id}-${idx}`} source={e} />

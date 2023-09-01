@@ -5,7 +5,8 @@
 :root {
   --vynt-primary: #141513;
   --vynt-secondary: #596051;
-  --vynt-text: #d1ffbc;
+  --vynt-text: #bff1a8;
+  --vynt-text-sub: #82a871;
 }
 
 body {
@@ -47,4 +48,8 @@ body {
 
 .text-time {
   @apply text-[#81fb60];
+}
+
+.text-sub {
+  color: var(--vynt-text-sub);
 }

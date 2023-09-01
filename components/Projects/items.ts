@@ -1,5 +1,6 @@
 import { IconDefinition, faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faDownload } from "@fortawesome/free-solid-svg-icons";
+import { ReactNode } from "react";
 
 export interface IProjectItemSource {
   icon: IconDefinition;
@@ -10,7 +11,7 @@ export interface IProjectItem {
   id: string;
   name: string;
   time: string;
-  description: string;
+  description: ReactNode | string;
   sources: Array<IProjectItemSource>;
 }
 

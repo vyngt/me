@@ -10,7 +10,7 @@ export default function Projects() {
       <div className="m-5">
         <Typography variant="h2">My Projects</Typography>
         <div className="inner-text-medium">
-          <Typography>
+          <Typography className="text-sub">
             Some projects I created when learning and working...
           </Typography>
         </div>

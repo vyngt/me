@@ -14,7 +14,7 @@ export default function Experience() {
           </Typography>
         </div>
         <Typography variant="lead">Backend Developer</Typography>
-        <div className="inner-text-medium">
+        <div className="inner-text-medium text-sub">
           <Typography>
             • Viet tai lieu huong dan lap trinh, phat trien odoo
           </Typography>
