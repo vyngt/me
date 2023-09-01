@@ -4,7 +4,7 @@ import { Typography } from "@material-tailwind/react";
 export default function Skill() {
   return (
     <div className="mx-4 inner-text-medium">
-      <hr className="my-2 border-blue-gray-50" />
+      <hr className="my-2 separator" />
       <Typography variant="h4">SKILLS</Typography>
       <Typography variant="h6" className="mt-1">
         PROGRAMMING LANGUAGES

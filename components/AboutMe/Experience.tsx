@@ -4,7 +4,7 @@ import { Typography } from "@material-tailwind/react";
 export default function Experience() {
   return (
     <div className="mx-4">
-      <hr className="my-2 border-blue-gray-50" />
+      <hr className="my-2 separator" />
       <Typography variant="h4">EXPERIENCE</Typography>
       <div className="flex flex-col">
         <div className="flex justify-between mt-2">

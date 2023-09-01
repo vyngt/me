@@ -14,7 +14,7 @@ export default function Projects() {
             Some projects I created when learning and working...
           </Typography>
         </div>
-        <hr className="my-2 border-blue-gray-50" />
+        <hr className="my-2 separator" />
 
         <div className="flex flex-col mt-3 gap-4">
           {projects.map((project) => (

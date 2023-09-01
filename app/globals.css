@@ -2,25 +2,27 @@
 @tailwind components;
 @tailwind utilities;
 
-.bg-primary {
-  background-color: #141513;
-}
-
-.border-color-primary {
-  border-color: #596051;
+:root {
+  --vynt-primary: #141513;
+  --vynt-secondary: #596051;
+  --vynt-text: #d1ffbc;
 }
 
 body {
   height: 100vh;
-  color: white;
+  color: var(--vynt-text);
+  background-color: var(--vynt-primary);
+}
 
-  @apply bg-primary;
+.separator {
+  border-color: var(--vynt-secondary);
 }
 
 .sidebar {
-  @apply bg-primary border-color-primary;
+  background-color: var(--vynt-primary);
   border-right-width: 1px;
   border-right-style: solid;
+  border-color: var(--vynt-secondary);
 }
 
 .sidebar-item {
