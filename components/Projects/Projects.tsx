@@ -11,7 +11,8 @@ export default function Projects() {
         <Typography variant="h2">My Projects</Typography>
         <div className="inner-text-medium">
           <Typography className="text-sub">
-            Some projects I created when learning and working...
+            Below are some projects or toys that I have created during my
+            learning and working journey.
           </Typography>
         </div>
         <hr className="my-2 separator" />

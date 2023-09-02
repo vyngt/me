@@ -42,9 +42,18 @@ body {
   @apply sidebar-item-choose pointer-events-none;
 }
 
-.inner-text-medium > p {
+.text-medium {
   font-size: 18px;
   font-weight: 400;
+}
+
+.text-project-description {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.inner-text-medium > p {
+  @apply text-medium;
 }
 
 .text-time {
