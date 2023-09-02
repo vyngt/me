@@ -15,13 +15,19 @@ export default function Experience() {
         </div>
         <Typography variant="lead">Backend Developer</Typography>
         <div className="inner-text-medium text-sub">
+          <Typography>• Researching and studying ERP systems.</Typography>
+          <Typography>• Configure and deploy the Odoo system.</Typography>
           <Typography>
-            • Viet tai lieu huong dan lap trinh, phat trien odoo
+            • Writing programming and development guides for Odoo.
           </Typography>
           <Typography>
-            • Viet module tich hop he thong doanh nghiep ERP
+            • Developing modules to integrate 3P payroll solutions into Odoo's
+            HR.
           </Typography>
-          <Typography>• Trien khai, van hanh cac he thong odoo</Typography>
+          <Typography>
+            • Developing modules to integrate OAuth2 for authentication within
+            Odoo.
+          </Typography>
         </div>
       </div>
     </div>
