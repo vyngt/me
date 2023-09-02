@@ -12,9 +12,9 @@ export default function Summary() {
           immense joy in crafting tools and products that align with my
           interests. My journey in the world of technology has been an exciting
           one, as I constantly seek to learn and stay updated with the latest
-          advancements. Whether it's diving into coding challenges or keeping an
-          eye on cutting-edge innovations, I'm always eager to embrace the
-          ever-evolving landscape of technology.
+          advancements. Whether it&apos;s diving into coding challenges or
+          keeping an eye on cutting-edge innovations, I&apos;m always eager to
+          embrace the ever-evolving landscape of technology.
         </Typography>
       </div>
     </div>

@@ -34,9 +34,9 @@ export const projects: Array<IProjectItem> = [
           user-friendly application.
         </Typography>
         <Typography className="text-project-description mt-2">
-          What's more, I added several new features to enhance its capabilities.
-          The end result? Password Manager 2 was born, a testament to my
-          exploration and growth in the world of technology.
+          What&apos;s more, I added several new features to enhance its
+          capabilities. The end result? Password Manager 2 was born, a testament
+          to my exploration and growth in the world of technology.
         </Typography>
       </>
     ),
@@ -62,7 +62,7 @@ export const projects: Array<IProjectItem> = [
         </Typography>
         <Typography className="text-project-description mt-2">
           This module allows you to to turn Odoo into an OAuth2 provider.
-          Although it's not yet complete, it seems to be functioning fairly
+          Although it&apos;s not yet complete, it seems to be functioning fairly
           well.
         </Typography>
       </>
@@ -84,9 +84,9 @@ export const projects: Array<IProjectItem> = [
           right information.
         </Typography>
         <Typography className="text-project-description mt-2">
-          That's when this tool was born. Even though there are many similar
-          tools available, I decided to create my own. Ultimately, I did it just
-          for the fun of it...haha.
+          That&apos;s when this tool was born. Even though there are many
+          similar tools available, I decided to create my own. Ultimately, I did
+          it just for the fun of it...haha.
         </Typography>
         <Typography className="text-project-description mt-2">
           The main feature is simply to store accounts securely, with the data

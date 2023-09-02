@@ -21,8 +21,8 @@ export default function Experience() {
             • Writing programming and development guides for Odoo.
           </Typography>
           <Typography>
-            • Developing modules to integrate 3P payroll solutions into Odoo's
-            HR.
+            • Developing modules to integrate 3P payroll solutions into
+            Odoo&apos;s HR.
           </Typography>
           <Typography>
             • Developing modules to integrate OAuth2 for authentication within
