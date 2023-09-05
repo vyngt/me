@@ -5,6 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { ISidebarItem, SidebarManager } from "./items";
 import { usePathname } from "next/navigation";
 import Link from "next/link";
+import React from "react";
 
 const SidebarItem = ({ item }: { item: ISidebarItem }) => {
   const pathname = usePathname();
@@ -24,9 +25,11 @@ const SidebarItem = ({ item }: { item: ISidebarItem }) => {
   );
 };
 
-export default function Sidebar() {
+const Sidebar: React.FunctionComponent<
+  React.HTMLAttributes<HTMLDivElement>
+> = ({ ...rest }) => {
   return (
-    <div className="sidebar h-full w-60 shadow-xl fixed">
+    <div {...rest}>
       <List>
         {SidebarManager.all().map((e) => (
           <SidebarItem key={e.id} item={e} />
@@ -34,4 +37,6 @@ export default function Sidebar() {
       </List>
     </div>
   );
-}
+};
+
+export default Sidebar;

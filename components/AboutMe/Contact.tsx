@@ -11,7 +11,7 @@ export default function Contact() {
     <div className="mx-5 my-2 flex flex-col gap-2">
       <div className="flex gap-4">
         <Link href="https://github.com/vyngt" target="_blank">
-          <IconButton size="lg">
+          <IconButton size="lg" ripple={false}>
             <FontAwesomeIcon icon={faGithub} size="2x" />
           </IconButton>
         </Link>
