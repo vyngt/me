@@ -11,17 +11,17 @@ export default function Contact() {
     <div className="mx-5 my-2 flex flex-col gap-2">
       <div className="flex gap-4">
         <Link href="https://github.com/vyngt" target="_blank">
-          <IconButton size="lg" ripple={false}>
+          <IconButton size="lg" className="-z-[99]">
             <FontAwesomeIcon icon={faGithub} size="2x" />
           </IconButton>
         </Link>
         <Link href="mailto:vyngt@outlook.com">
-          <IconButton size="lg">
+          <IconButton size="lg" className="-z-[99]">
             <FontAwesomeIcon icon={faEnvelope} size="2x" />
           </IconButton>
         </Link>
         <Link href="tel:+84822078535">
-          <IconButton size="lg">
+          <IconButton size="lg" className="-z-[99]">
             <FontAwesomeIcon icon={faPhone} size="2x" />
           </IconButton>
         </Link>
