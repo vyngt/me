@@ -1,9 +1,5 @@
 import { IconDefinition } from "@fortawesome/fontawesome-svg-core";
-import {
-  faFaceSmile,
-  faScrewdriverWrench,
-  faCode,
-} from "@fortawesome/free-solid-svg-icons";
+import { faFaceSmile, faCode } from "@fortawesome/free-solid-svg-icons";
 
 export interface ISidebarItem {
   id: string;
@@ -30,7 +26,7 @@ export const registry: ISidebarItem[] = [
   {
     id: "projects",
     name: "Projects",
-    icon: faScrewdriverWrench,
+    icon: faCode,
     href: "/projects",
     sequence: 2,
   },

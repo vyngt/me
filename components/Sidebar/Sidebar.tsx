@@ -13,7 +13,7 @@ const SidebarItem = ({ item }: { item: ISidebarItem }) => {
   return (
     <Link
       className={`flex gap-2 p-3 ${
-        pathname == item.href ? "sidebar-item-disable" : "sidebar-item"
+        pathname == item.href ? "vyngt-item-disable" : "vyngt-item"
       }`}
       href={item.href}
     >

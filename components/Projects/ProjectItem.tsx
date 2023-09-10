@@ -7,7 +7,11 @@ import Link from "next/link";
 
 const ProjectItemSource = ({ source }: { source: IProjectItemSource }) => {
   return (
-    <Link href={source.link} target="_blank" className="hover:text-gray-700">
+    <Link
+      href={source.link}
+      target="_blank"
+      className="vyngt-item hover:vyngt-text-hover"
+    >
       <FontAwesomeIcon icon={source.icon} size="3x" />
     </Link>
   );

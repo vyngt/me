@@ -7,6 +7,23 @@
   --vynt-secondary: #596051;
   --vynt-text: #bff1a8;
   --vynt-text-sub: #f982c1;
+  --vynt-time: #81fb60;
+  --vynt-info: rgb(189 189 189 / 1);
+  --vynt-choose: #9df7b5;
+  --vynt-hover: rgb(255, 255, 255);
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --vynt-primary: #eff8e6;
+    --vynt-secondary: #bfc2bb;
+    --vynt-text: #1f3017;
+    --vynt-text-sub: #5e143b;
+    --vynt-time: #0754a7;
+    --vynt-info: rgb(98, 65, 65);
+    --vynt-choose: #039229;
+    --vynt-hover: rgb(0, 0, 0);
+  }
 }
 
 body {
@@ -26,20 +43,24 @@ body {
   border-color: var(--vynt-secondary);
 }
 
-.sidebar-item {
-  @apply text-gray-400;
+.vyngt-item {
+  color: var(--vynt-info);
 }
 
-.sidebar-item-choose {
-  @apply text-[#9df7b5];
+.vyngt-item-choose {
+  color: var(--vynt-choose);
 }
 
-.sidebar-item:hover {
-  @apply sidebar-item-choose !text-white;
+.vyngt-text-hover {
+  color: var(--vynt-hover);
 }
 
-.sidebar-item-disable {
-  @apply sidebar-item-choose pointer-events-none;
+.vyngt-item:hover {
+  @apply vyngt-text-hover;
+}
+
+.vyngt-item-disable {
+  @apply vyngt-item-choose pointer-events-none;
 }
 
 .text-medium {
@@ -57,7 +78,7 @@ body {
 }
 
 .text-time {
-  @apply text-[#81fb60];
+  color: var(--vynt-time);
 }
 
 .text-sub {
