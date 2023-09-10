@@ -20,7 +20,7 @@ export default function RootLayout({
       <body className={inter.className}>
         <div className="w-full h-full relative">
           <Sidebar className="hidden md:block sidebar h-full w-60 shadow-xl fixed" />
-          <VNavbar className="md:hidden fixed w-full h-16 navbar" />
+          <VNavbar className="md:hidden fixed w-full h-16 navbar z-[99] shadow-md" />
           <div className="pt-16 md:pt-0 md:ml-[242px] mr-[2px]">{children}</div>
         </div>
       </body>

@@ -87,4 +87,5 @@ body {
 
 .navbar {
   background-color: var(--vynt-primary);
+  @apply shadow-md;
 }
