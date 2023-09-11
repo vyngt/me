@@ -9,7 +9,7 @@ import Link from "next/link";
 export default function Contact() {
   return (
     <div className="mx-5 my-2 flex flex-col gap-2">
-      <div className="flex gap-4">
+      <div className="flex gap-4 justify-center md:justify-normal flex-wrap">
         <a href="https://github.com/vyngt" target="_blank">
           <IconButton size="lg">
             <FontAwesomeIcon icon={faGithub} size="2x" />
@@ -26,7 +26,7 @@ export default function Contact() {
           </IconButton>
         </a>
       </div>
-      <div>
+      <div className="flex justify-center md:justify-normal">
         <Tooltip content="My vCard" placement="right">
           <Image
             className="mt-2"
