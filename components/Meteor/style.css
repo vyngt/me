@@ -39,3 +39,11 @@
     opacity: 0;
   }
 }
+
+@media (prefers-color-scheme: light) {
+  .vyngt-meteor,
+  .vyngt-meteor:before {
+    display: none !important;
+    animation: none !important;
+  }
+}

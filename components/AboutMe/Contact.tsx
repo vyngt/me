@@ -27,15 +27,13 @@ export default function Contact() {
         </a>
       </div>
       <div className="flex justify-center md:justify-normal">
-        <Tooltip content="My vCard" placement="right">
-          <Image
-            className="mt-2"
-            src="/assets/vcard.png"
-            alt="qr-vcard"
-            height={300}
-            width={300}
-          />
-        </Tooltip>
+        <Image
+          className="mt-2"
+          src="/assets/vcard.png"
+          alt="qr-vcard"
+          height={300}
+          width={300}
+        />
       </div>
     </div>
   );

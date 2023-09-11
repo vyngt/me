@@ -23,7 +23,7 @@ export default function RootLayout({
           <Sidebar className="hidden md:block sidebar h-full w-60 shadow-xl fixed" />
           <VNavbar className="md:hidden fixed w-full h-16 navbar z-[99] shadow-md" />
           <div className="pt-16 md:pt-0 md:ml-[242px] mr-[2px]">{children}</div>
-          <Meteors number={30} />
+          <Meteors number={20} />
         </div>
       </body>
     </html>

@@ -1,3 +1,4 @@
+"use client";
 import "./style.css";
 
 export const Meteors = ({ number }: { number?: number }) => {
