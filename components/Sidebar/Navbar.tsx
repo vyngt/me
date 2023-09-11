@@ -45,7 +45,9 @@ const VNavbar: React.FunctionComponent<React.HTMLAttributes<HTMLElement>> = ({
   return (
     <nav {...rest}>
       <div className="mx-4 pt-4 flex justify-between">
-        <Typography variant="h5">Nguyen The Vy</Typography>
+        <Typography variant="h5" className="self-center">
+          Nguyen The Vy
+        </Typography>
         <div className="flex flex-col justify-center">
           <IconButton onClick={handle}>
             <FontAwesomeIcon icon={open ? faClose : faBars} />
