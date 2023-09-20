@@ -15,7 +15,7 @@ const NavbarItem = ({ item }: { item: ISidebarItem }) => {
   return (
     <Typography as="li" variant="small" className="p-1 font-medium">
       <Link
-        className={`flex gap-2 p-3 ${
+        className={`flex gap-2 p-2 ${
           pathname == item.href ? "vyngt-item-disable" : "vyngt-item"
         }`}
         href={item.href}
@@ -28,7 +28,7 @@ const NavbarItem = ({ item }: { item: ISidebarItem }) => {
 
 const NavbarList = () => {
   return (
-    <ul className="my-2 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6 navbar">
+    <ul className="my-2 flex flex-col navbar">
       {SidebarManager.all().map((e) => (
         <NavbarItem key={`nav-${e.id}`} item={e} />
       ))}
