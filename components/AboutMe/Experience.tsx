@@ -13,7 +13,7 @@ export default function Experience() {
             02/2023 - 08/2023
           </Typography>
         </div>
-        <Typography variant="lead">Backend Developer</Typography>
+        <Typography variant="lead">Odoo Developer</Typography>
         <div className="inner-text-medium text-sub">
           <Typography>• Researching and studying ERP systems.</Typography>
           <Typography>• Configure and deploy the Odoo system.</Typography>

@@ -27,13 +27,15 @@ export default function Contact() {
         </a>
       </div>
       <div className="flex justify-center md:justify-normal">
-        <Image
-          className="mt-2"
-          src="/assets/vcard.png"
-          alt="qr-vcard"
-          height={300}
-          width={300}
-        />
+        <a href="/assets/vynt.vcf">
+          <Image
+            className="mt-2"
+            src="/assets/vcard.png"
+            alt="qr-vcard"
+            height={300}
+            width={300}
+          />
+        </a>
       </div>
     </div>
   );
