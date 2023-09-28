@@ -5,9 +5,15 @@
 .vyngt-meteor {
   position: fixed;
   width: 300px;
-  height: 1px;
+  height: 2px;
   transform: rotate(-45deg);
-  background-image: linear-gradient(to right, #fff, rgba(255, 255, 255, 0));
+  background-image: linear-gradient(
+    to right,
+    rgba(95, 145, 255, 1),
+    rgba(0, 0, 255, 0)
+  );
+  border-radius: 999px;
+  filter: drop-shadow(0 0 6px rgba(105, 155, 255, 1));
 }
 
 .vyngt-meteor:before {
@@ -15,12 +21,16 @@
   position: fixed;
   width: 4px;
   height: 5px;
-  border-radius: 50%;
+  border-radius: 100%;
   margin-top: -2px;
-  background: rgba(#fff, 0.7);
-  box-shadow: 0 0 15px 3px #fff;
+  background: linear-gradient(
+    to right,
+    rgba(0, 0, 255, 0),
+    rgba(95, 145, 255, 1),
+    rgba(0, 0, 255, 0)
+  );
+  box-shadow: 0 0 15px 3px #77cfe8;
 }
-
 @keyframes meteor {
   0% {
     opacity: 1;
