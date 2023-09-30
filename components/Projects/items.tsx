@@ -1,7 +1,7 @@
 "use client";
 
 import { IconDefinition, faGithub } from "@fortawesome/free-brands-svg-icons";
-import { faDownload } from "@fortawesome/free-solid-svg-icons";
+import { faDownload, faBoxOpen } from "@fortawesome/free-solid-svg-icons";
 import { Typography } from "@material-tailwind/react";
 import { ReactNode } from "react";
 
@@ -19,6 +19,25 @@ export interface IProjectItem {
 }
 
 export const projects: Array<IProjectItem> = [
+  {
+    id: "sp_vcard",
+    name: "sp_vcard",
+    time: "2023",
+    description: (
+      <>
+        <Typography className="text-project-description">
+          A library will help you create vCards. It&apos;s implemented in Rust.
+        </Typography>
+      </>
+    ),
+    sources: [
+      { icon: faGithub, link: "https://github.com/vyngt/vcard" },
+      {
+        icon: faBoxOpen,
+        link: "https://crates.io/crates/sp_vcard",
+      },
+    ],
+  },
   {
     id: "password_manager_2",
     name: "Password Manager 2",
