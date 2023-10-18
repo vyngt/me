@@ -25,9 +25,7 @@ const SidebarItem = ({ item }: { item: ISidebarItem }) => {
   );
 };
 
-const Sidebar: React.FunctionComponent<
-  React.HTMLAttributes<HTMLDivElement>
-> = ({ ...rest }) => {
+export function Sidebar({ ...rest }: React.HTMLAttributes<HTMLElement>) {
   return (
     <div {...rest}>
       <List>
@@ -37,6 +35,4 @@ const Sidebar: React.FunctionComponent<
       </List>
     </div>
   );
-};
-
-export default Sidebar;
+}

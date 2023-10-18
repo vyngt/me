@@ -1,3 +1,2 @@
-import Sidebar from "./Sidebar";
-import VNavbar from "./Navbar";
-export { Sidebar, VNavbar };
+export { Sidebar } from "./Sidebar";
+export { VNavbar } from "./Navbar";

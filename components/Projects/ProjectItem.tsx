@@ -17,7 +17,7 @@ const ProjectItemSource = ({ source }: { source: IProjectItemSource }) => {
   );
 };
 
-export default function ProjectItem({ item }: { item: IProjectItem }) {
+export function ProjectItem({ item }: { item: IProjectItem }) {
   return (
     <div className="flex flex-col">
       <div className="flex justify-between">

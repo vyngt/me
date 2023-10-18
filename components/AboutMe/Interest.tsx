@@ -1,7 +1,7 @@
 "use client";
 import { Typography } from "@material-tailwind/react";
 
-export default function Interest() {
+export function Interest() {
   return (
     <div className="mx-4">
       <hr className="my-2 separator" />

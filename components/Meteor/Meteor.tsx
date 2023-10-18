@@ -1,7 +1,7 @@
 "use client";
 import "./style.css";
 
-export const Meteors = ({ number }: { number?: number }) => {
+export function Meteors({ number }: { number: number }) {
   const meteors = new Array(number || 20).fill(true);
 
   const generate = (min: number, max: number) =>
@@ -29,4 +29,4 @@ export const Meteors = ({ number }: { number?: number }) => {
       ))}
     </>
   );
-};
+}

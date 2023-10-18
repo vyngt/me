@@ -1,4 +1,5 @@
 "use client";
+
 import { IconButton, Tooltip } from "@material-tailwind/react";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import {
@@ -9,7 +10,7 @@ import {
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Image from "next/image";
 
-export default function Contact() {
+export function Contact() {
   return (
     <div className="mx-5 my-2 flex flex-col gap-2">
       <div className="flex gap-4 justify-center md:justify-normal flex-wrap">

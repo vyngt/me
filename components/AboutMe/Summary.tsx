@@ -1,7 +1,7 @@
 "use client";
 import { Typography } from "@material-tailwind/react";
 
-export default function Summary() {
+export function Summary() {
   return (
     <div className="mt-5 mx-4">
       <Typography variant="h1">Nguyen The Vy</Typography>

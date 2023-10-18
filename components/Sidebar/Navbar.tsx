@@ -36,9 +36,7 @@ const NavbarList = () => {
   );
 };
 
-const VNavbar: React.FunctionComponent<React.HTMLAttributes<HTMLElement>> = ({
-  ...rest
-}) => {
+export function VNavbar({ ...rest }: React.HTMLAttributes<HTMLElement>) {
   const [open, setOpen] = React.useState(false);
   const handle = () => setOpen((cur) => !cur);
 
@@ -59,6 +57,4 @@ const VNavbar: React.FunctionComponent<React.HTMLAttributes<HTMLElement>> = ({
       </Collapse>
     </nav>
   );
-};
-
-export default VNavbar;
+}

@@ -1,2 +1,1 @@
-import { Meteors } from "./Meteor";
-export { Meteors };
+export { Meteors } from "./Meteor";

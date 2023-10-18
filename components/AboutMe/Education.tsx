@@ -1,7 +1,8 @@
 "use client";
+
 import { Typography } from "@material-tailwind/react";
 
-export default function Education() {
+export function Education() {
   return (
     <div className="mx-4">
       <hr className="my-2 separator" />

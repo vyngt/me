@@ -1,10 +1,10 @@
 "use client";
 
 import { Typography } from "@material-tailwind/react";
-import ProjectItem from "./ProjectItem";
+import { ProjectItem } from "./ProjectItem";
 import { projects } from "./items";
 
-export default function Projects() {
+export function Projects() {
   return (
     <div className="flex flex-col gap-2">
       <div className="m-5">
