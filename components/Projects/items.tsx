@@ -20,6 +20,21 @@ export interface IProjectItem {
 
 export const projects: Array<IProjectItem> = [
   {
+    id: "vchat",
+    name: "VChat",
+    time: "2023",
+    description: (
+      <>
+        <Typography className="text-project-description">
+          This is a real-time chat platform based on Server Sent Events (SSE).
+          The frontend is built using Next.js(React.js Framework), while the
+          backend is developed with Rocket.rs, a web framework written in Rust.
+        </Typography>
+      </>
+    ),
+    sources: [{ icon: faGithub, link: "https://github.com/vyngt/vchat" }],
+  },
+  {
     id: "sp_vcard",
     name: "sp_vcard",
     time: "2023",

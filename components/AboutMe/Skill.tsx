@@ -16,11 +16,14 @@ export default function Skill() {
         FRAMEWORKS & LIBRARIES & PACKAGES
       </Typography>
       <div className="inner-text-medium text-sub">
-        <Typography>• PyQt, PySide, Pytest, Django, FastAPI, Odoo</Typography>
-        <Typography>• Typescript, ReactJs, NextJs</Typography>
-        <Typography>• TailwindCSS</Typography>
+        <Typography>
+          • Python: PyQt, PySide, Pytest, Django, FastAPI, Odoo
+        </Typography>
+        <Typography>• Node.js: Typescript, React.js, Next.js</Typography>
+        <Typography>• CSS: TailwindCSS</Typography>
         <Typography>• Rust: Tauri, Rocket</Typography>
         <Typography>• Web Server: nginx</Typography>
+        <Typography>• Message Brokers: RabbitMQ</Typography>
         <Typography>• Container: Docker</Typography>
       </div>
       <Typography variant="h6" className="mt-1">
