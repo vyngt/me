@@ -8,27 +8,23 @@ export function Experience() {
       <Typography variant="h4">EXPERIENCE</Typography>
       <div className="flex flex-col">
         <div className="flex justify-between mt-2">
+          <Typography variant="h5">
+            TAM KHOA TECHNOLOGY JOINT STOCK COMPANY
+          </Typography>
+          <Typography variant="lead" className="text-time">
+            11/2023 - Present
+          </Typography>
+        </div>
+        <Typography variant="lead">Odoo Developer</Typography>
+      </div>
+      <div className="flex flex-col">
+        <div className="flex justify-between mt-2">
           <Typography variant="h5">T4 TEK COMPANY LIMITED</Typography>
           <Typography variant="lead" className="text-time">
             02/2023 - 08/2023
           </Typography>
         </div>
-        <Typography variant="lead">Odoo Developer</Typography>
-        <div className="inner-text-medium text-sub">
-          <Typography>• Researching and studying ERP systems.</Typography>
-          <Typography>• Configure and deploy the Odoo system.</Typography>
-          <Typography>
-            • Writing programming and development guides for Odoo.
-          </Typography>
-          <Typography>
-            • Developing modules to integrate 3P payroll solutions into
-            Odoo&apos;s HR.
-          </Typography>
-          <Typography>
-            • Developing modules to integrate OAuth2 for authentication within
-            Odoo.
-          </Typography>
-        </div>
+        <Typography variant="lead">Intern Odoo Developer</Typography>
       </div>
     </div>
   );

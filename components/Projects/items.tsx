@@ -104,35 +104,6 @@ export const projects: Array<IProjectItem> = [
     sources: [{ icon: faGithub, link: "https://github.com/vyngt/v-odoo" }],
   },
   {
-    id: "password_manager",
-    name: "Password Manager",
-    time: "2022",
-    description: (
-      <>
-        <Typography className="text-project-description">
-          During my learning and work experiences, I found myself creating
-          numerous accounts and passwords, most of which were complex and hard
-          to remember. I ended up storing them in plain .txt files (definitely
-          not secure). As time passed, the number of accounts that needed to be
-          managed kept growing, making it increasingly difficult to find the
-          right information.
-        </Typography>
-        <Typography className="text-project-description mt-2">
-          That&apos;s when this tool was born. Even though there are many
-          similar tools available, I decided to create my own. Ultimately, I did
-          it just for the fun of it...haha.
-        </Typography>
-        <Typography className="text-project-description mt-2">
-          The main feature is simply to store accounts securely, with the data
-          encrypted. For the user interface, I used PyQt.
-        </Typography>
-      </>
-    ),
-    sources: [
-      { icon: faGithub, link: "https://github.com/vyngt/password-manager" },
-    ],
-  },
-  {
     id: "vgame",
     name: "VGame",
     time: "2022",
