@@ -55,22 +55,17 @@ export const projects: Array<IProjectItem> = [
   },
   {
     id: "password_manager_2",
-    name: "Password Manager 2",
+    name: "Password Manager",
     time: "2023",
     description: (
       <>
         <Typography className="text-project-description">
-          At this point, new weapon, Rust. Driven by my fascination, I made the
-          decision to upgrade the version of my Password Manager tool. With
-          Tauri, I rewrote the functionalities in Rust, and for the user
-          interface, I utilized Next.js. This combination allowed me to leverage
-          the strengths of both technologies and create a robust and
-          user-friendly application.
-        </Typography>
-        <Typography className="text-project-description mt-2">
-          What&apos;s more, I added several new features to enhance its
-          capabilities. The end result? Password Manager 2 was born, a testament
-          to my exploration and growth in the world of technology.
+          A password management tool with these features offers secure storage
+          and organization of passwords. It encrypts all data using SQLCipher,
+          ensuring that passwords are protected with strong encryption. This
+          tool allows users to manage their passwords efficiently, providing a
+          central repository that safeguards sensitive information from
+          unauthorized access.
         </Typography>
       </>
     ),
@@ -89,12 +84,6 @@ export const projects: Array<IProjectItem> = [
     description: (
       <>
         <Typography className="text-project-description">
-          While working with Odoo, I encountered some intriguing authentication
-          mechanisms. I began to wonder if it was possible to integrate OAuth2
-          into Odoo. After extensive research and exploration, I somehow managed
-          to create this solution.
-        </Typography>
-        <Typography className="text-project-description mt-2">
           This module allows you to to turn Odoo into an OAuth2 provider.
           Although it&apos;s not yet complete, it seems to be functioning fairly
           well.
@@ -104,43 +93,11 @@ export const projects: Array<IProjectItem> = [
     sources: [{ icon: faGithub, link: "https://github.com/vyngt/v-odoo" }],
   },
   {
-    id: "vgame",
-    name: "VGame",
-    time: "2022",
-    description: (
-      <Typography className="text-project-description">
-        Our professor assigned a task in which each of us had to create an
-        e-commerce website that integrated various online payment methods and
-        ensured data encryption. With determination and effort, I managed to
-        create VGame, an online store selling electronic games, inspired by
-        platforms like Steam. The integrated payment methods include Paypal,
-        Stripe, and Braintree. The primary technology used for this project was
-        Django.
-      </Typography>
-    ),
-    sources: [{ icon: faGithub, link: "https://github.com/vyngt/vgame" }],
-  },
-  {
-    id: "password_generator",
-    name: "Password Generator",
-    time: "2022",
-    description: (
-      <Typography className="text-project-description">
-        During my journey of learning PyQT and PySide (although they may quite
-        similar), I created this little toy, even though it serves a very simple
-        purpose of generating random character strings.
-      </Typography>
-    ),
-    sources: [
-      { icon: faGithub, link: "https://github.com/vyngt/password-generator" },
-    ],
-  },
-  {
     id: "steganography",
     name: "Steganography",
     time: "2022",
     description:
-      "Steganography is a simple CLI tool used for embedding and extracting messages from digital images. It is primarily implemented in Python. Messages are encrypted and decrypted using a password.",
+      "Steganography is a simple CLI tool for embedding and extracting messages from digital images with data encrypted and decrypted with the password.",
     sources: [
       { icon: faGithub, link: "https://github.com/vyngt/ky-thuat-giau-tin" },
       {
@@ -150,19 +107,11 @@ export const projects: Array<IProjectItem> = [
     ],
   },
   {
-    id: "vpic",
-    name: "VPic",
-    time: "2022",
-    description:
-      "VPic is a straightforward platform designed for uploading and viewing images. It leverages Django and Next.js as its core technologies. Its primary features include image uploads and an authentication mechanism using OAuth2.",
-    sources: [{ icon: faGithub, link: "https://github.com/vyngt/vpic" }],
-  },
-  {
     id: "y2mp3",
     name: "y2mp3",
     time: "2022",
     description:
-      "y2mp3 is a simple and straightforward project created solely for the purpose of converting videos into MP3 audio format. It is primarily written in Python and relies on ffmpeg for conversion.",
+      "y2mp3 is a utilities tool created solely to convert videos into MP3 audio format. It is primarily written in Python and relies on ffmpeg for conversion.",
     sources: [
       { icon: faGithub, link: "https://github.com/vyngt/y2mp3" },
       { icon: faDownload, link: "https://github.com/vyngt/y2mp3/releases" },
